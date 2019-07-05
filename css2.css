@@ -1,0 +1,71 @@
+.header{
+	text-align: center;/*rata tengah pada text*/ 
+	color: white;/*warna font*/ 
+}
+/*sadasda*/  
+
+.navigasi{
+  background:#eee;/*warna background navigasi*/ 
+  
+}
+nav ul{
+  padding:0px;/*mengatur jarak ruang konten dan border*/ 
+  width:1420px;/*menentukan lebar pada elemen*/ 
+ 
+  text-align:center; /*text rata tengah*/ 
+}
+nav ul li{
+  display:inline-block; /*menggunakan inline block agar bisa diubah ukuran navigasi*/ 
+  margin-right: -5px;/*mengatur margin kanan*/ 
+}
+nav ul li a{
+  color: black;/*font warna merah*/ 
+  background:#ffffff;/*warna background pada navigasi*/ 
+  padding:8px 207.4px;/*pengaturan pading agar pas dengan isi 3 menu nvaigasi*/ 
+  display:block;/*merapikan Margin kiri dankanan nya navigasi*/ 
+  text-decoration:none;/*tidak menggunakan text dekorasi*/ 
+  font:700 15px 'open sans',sans-serif;/*mengatur ukuran font , jenis font , dan tipe font*/ 
+  text-transform:uppercase;/*Agar kapital*/ 
+  transition:all .1s ease-in;/*efek ease in , seperti animasi jika cursor dekat ke navigasi*/ 
+}
+nav ul li a:hover{/*Menggunakan hoover agar memberi efek animasi navbar*/ 
+  background:#a9a9a9;
+}
+
+.main{
+	width: 60%;/*mengatur lebar background*/ 
+  height: 665px;/*mengatur tinggi background*/ 
+	float: right;/*mengatur  background kekanan*/ 
+	border: 1px solid lightblue;/*mengatur ukuran border berwarna solid lightblue*/ 
+	text-align: center;/*rata tengah*/ 
+	background-color: lightblue;/*mengatur warna background*/ 
+	font-style: initial;/*mengatur style font */ 
+	color: white;/*warna font*/ 
+  font-size: 20px/*mengatur ukuran font*/ 
+}
+
+.mainkiri{
+	width:39%;/*mengatur lebar background*/ 
+  height: 665px;/*mengatur tinggi background*/ 
+	float: left;/*mengatur  background kekiri*/ 
+	border:1px solid lightblue;/*mengatur ukuran border berwarna solid lightblue*/ 
+	text-align: center;/*rata tengah*/ 
+	background-color: lightblue;/*mengatur warna background*/ 
+	font-style: initial;/*mengatur warna background*/ 
+  color: white;/*warna font*/ 
+  font-size: 20px;/*mengatur ukuran font*/ 
+}
+
+.footer{
+  width: 100%;/*mengatur lebar background*/ 
+  height: 60px;/*mengatur tinggi background*/ 
+  float: left;/*mengatur  background kekiri agar bisa ketengah saat dipaling bawah*/ 
+  border: 1px solid #025976;/*mengatur ukuran border dan warna border*/
+  text-align: center;/*mengatur rata tengah text*/
+  background-color: #025976;/*mengatur ukuran border dan warna border*/
+  font-style: initial;/*mengatur font style*/
+  color: white;/*mengatur warna font*/
+  font-size: 20px/*mengatur ukuran font */
+}
+
+

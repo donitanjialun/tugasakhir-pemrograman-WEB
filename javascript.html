@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html>
+<head>  
+	<title>Tugas Akhir Pemrograman WEB</title>
+	<link rel="stylesheet" type="text/css" href="css2.css"><!--memanggil CSS External--> 
+</head>
+<body bgcolor="tomato"><!--Warna Background-->
+<div class="header">
+<h1>Selamat Datang</h1>
+
+<div class="navigasi"><!--class yang akan diedit di css eksternal--> 
+	<nav><!--wadah hyperlink navigasi menu-->
+  <ul>
+    <li><a href='javascript.html'>Java</a></li><!--hyperlink berupa navigasi menu-->
+    <li><a href='index.php'>Php</a></li><!--hyperlink berupa navigasi menu-->
+    <li><a href='profile.html'>profile</a></li><!--hyperlink berupa navigasi menu-->
+  </ul>
+</nav>
+</div>
+
+<div class="main"><!--class yang akan diedit di css eksternal--> 
+	<h1>Membuat Kalkulator Sederhana</h1>
+	<script src="kalkulator.js"></script><!--Memanggil Javascript External-->
+<form name="formkalkulator" action="#">
+<p>Bilangan 1  <input type="text" name="x"/>	</p><!--Input Data yang akan ditampung ke variabel X-->
+<p>Bilangan 2  <input type="text" name="y"/>	</p><!--Input Data yang akan ditampung ke variabel Y-->
+<p>Hasil  <input type="text" name="hasil" disabled="true" /></p><!--hasil Data yang  ditampung akan disimpan ke variabel hasil-->
+<p>Pengoperasian <select name="opsi"></p>
+ <option value="tambah"> + </option><!--Opsi biasa untk memilih , variabel tambah-->
+ <option value="kurang"> - </option><!--Opsi biasa untk memilih , variabel kurang-->
+ <option value="kali"> * </option><!--Opsi biasa untk memilih , variabel kali-->
+ <option value="bagi"> / </option><!--Opsi biasa untk memilih , variabel bagi-->
+</select>
+<input type="button" value="=" onClick="hitung()" /><!--membuat button untuk menghitung data yg dinput tadi-->
+<input type="button" value="Hapus" onClick="resetForm()" /><!--menreset semuad data yang telah diinput-->
+</form>
+    
+  </form>
+
+</div>
+
+<div class="mainkiri"><!--class yang akan diedit di css eksternal--> 
+	<script src="alert.js"></script><!--Memanggil Javascript External-->
+	<h1>Penggunaan Javascript</h1>
+	<script src="login.js"></script><!--Memanggil Javascript External-->
+	<button onclick="alert()">Klik Buku Tamu</button><!--membuat button untuk menjalankan sebuah Function di js external nanti-->
+	<p id="demo"></p><!--Memberi value bernama demo pada js ini-->
+	
+
+	
+
+
+</div>
+
+<div class="footer"><!--class yang akan diedit di css eksternal--> 
+	<p>&copy Doni Tan Jialun </p>
+</div>
+
+</html>
