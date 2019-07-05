@@ -6,4 +6,5 @@ Kelas A
 
 membuat Javascript kalkulator,alert welcome+date.dan login.
 Untuk PHP membuat form yang akan disimpan dalam txt , dan akan ditampilkan kembali diweb
-Terimakasih 
+Mohon maaf atas segala kekurangan .. Terimakasih  bu..
+
